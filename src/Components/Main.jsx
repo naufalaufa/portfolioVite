@@ -1,0 +1,45 @@
+import { motion } from "framer-motion";
+import { TypeAnimation } from "react-type-animation";
+
+function Main() {
+  return (
+    <div className="pt-64 px-10 pb-[600px]  font-Jost">
+      <motion.h1
+        initial={{ opacity: 0, y: -80 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 2 }}
+        className="text-black text-4xl font-bold sm:text-5xl"
+      >
+        Hi! , Welcome To <span className="text-yellow-600">My Portfolio</span>
+      </motion.h1>
+      <div className="text-black text-xl font-bold ">
+        <TypeAnimation
+          repeat={Infinity}
+          sequence={["Front End", 1000, "Web Developer", 2000]}
+          speed={200}
+        />
+        <motion.p
+          initial={{ opacity: 0, x: -100 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 2 }}
+        >
+          Lets enjoy for the experience
+        </motion.p>
+      </div>
+      <motion.a
+        onClick={() => {
+          scroll;
+        }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 2 }}
+        href="#abouts"
+        className="bg-orange-300 p-6 inline-block mt-5 rounded-full hover:text-white hover:bg-black"
+      >
+        Show More
+      </motion.a>
+    </div>
+  );
+}
+
+export default Main;
