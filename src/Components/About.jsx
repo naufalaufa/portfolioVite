@@ -7,7 +7,7 @@ function About() {
   return (
     <div id="abouts" className="pb-36 ">
       <div className="p-5">
-        <h1 className="text-black font-Jost text-2xl text-center pt-10 sm:text-4xl">
+        <h1 className=" duration-500 font-Jost text-2xl text-center pt-10 sm:text-4xl">
           ABOUT ME
         </h1>
         <div className="text-left sm:text-left">
@@ -24,11 +24,11 @@ function About() {
             <h1 className="text-2xl font-Jost sm:text-xl  md:text-2xl lg:text-4xl ">
               Mochamad Naufal Aufa Rifqi
             </h1>
-            <h3 className="text-xl font-semibold ">About Me</h3>
-            <p className="text-left ">
+            <h3 className="text-xl font-semibold duration-500 ">About Me</h3>
+            <p className="text-left duration-500">
               Hi my name is mochamad naufal you can call opal LMAO ,
             </p>
-            <p>
+            <p className="duration-500">
               Live In Jakarta Indonesian , interested in technology and design
             </p>
             <div className="mt-5">

@@ -2,7 +2,7 @@ import Netflix from "../images/NETFLIX-NEW-REV.png";
 
 function Project() {
   return (
-    <div className="text-white pt-[200px] bg-black pb-36 ">
+    <div className="text-white pt-[200px] bg-slate-700 pb-36 ">
       <h1 className="text-2xl font-bold text-center p-10 sm:text-4xl">
         PROJECT
       </h1>

@@ -5,7 +5,7 @@ import { BsLinkedin } from "react-icons/bs";
 
 function Contact() {
   return (
-    <div className="bg-green-300 p-20  h-96">
+    <div className="bg-green-300 p-20 h-96 text-black">
       <h1 className="text-center font-bold text-2xl m-auto sm:text-4xl">
         CONTACT
       </h1>
