@@ -31,13 +31,14 @@ function Main() {
       </div>
       <motion.a
         onClick={() => {
-          scroll;
+          document
+            .getElementById("abouts")
+            .scrollIntoView({ behavior: "smooth" });
         }}
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 2 }}
-        href="#abouts"
-        className="bg-orange-300 p-6 inline-block mt-5 rounded-full hover:text-white hover:bg-slate-500"
+        className="cursor-pointer bg-orange-300 p-6 inline-block mt-5 rounded-full hover:text-white hover:bg-slate-500"
       >
         Show More
       </motion.a>
