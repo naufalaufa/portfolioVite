@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { MdNightlightRound } from "react-icons/md";
-import { LuCloudSun } from "react-icons/lu";
+import { SiReact } from "react-icons/si";
 import { motion } from "framer-motion";
+import { TbBrandTailwind } from "react-icons/tb";
 
 function Navbar() {
   const [logoNav, setLogoNav] = useState(true);
@@ -15,9 +15,9 @@ function Navbar() {
         onClick={() => setLogoNav((prevLogoNav) => !prevLogoNav)}
       >
         {logoNav === true ? (
-          <MdNightlightRound size={30} color="black" />
+          <TbBrandTailwind size={30} color="black" />
         ) : (
-          <LuCloudSun size={30} color="black" />
+          <SiReact size={30} color="black" />
         )}
       </motion.span>
     </div>
