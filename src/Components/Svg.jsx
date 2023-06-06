@@ -1,6 +1,6 @@
 function Svg() {
   return (
-    <div>
+    <div className="mb-[600px] lg:mb-96">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#a2d9ff"

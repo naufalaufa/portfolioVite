@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 function About() {
   return (
-    <div id="abouts" className="pb-36 ">
+    <div id="abouts" className="pb-36 relative">
       <div className="p-5">
         <h1 className=" duration-500 font-Jost text-2xl text-center pt-10 sm:text-4xl">
           ABOUT ME
@@ -20,7 +20,7 @@ function About() {
             src={logo}
             alt="error"
           />
-          <div className="p-10 sm:absolute top-[1550px] left-[300px] md:ml-20 lg:ml-96">
+          <div className="p-10 sm:absolute top-[250px] left-[300px] md:ml-20 lg:ml-96">
             <h1 className="text-2xl font-Jost sm:text-xl  md:text-2xl lg:text-4xl ">
               Mochamad Naufal Aufa Rifqi
             </h1>
@@ -31,7 +31,7 @@ function About() {
             <p className="duration-500">
               Live In Jakarta Indonesian , interested in technology and design
             </p>
-            <div className="mt-5">
+            <div className="mt-5 ">
               <a
                 target="_blank"
                 href={pdefnew}

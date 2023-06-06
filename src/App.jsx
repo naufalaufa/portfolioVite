@@ -5,6 +5,7 @@ import Project from "./Components/Project";
 import Contact from "./Components/Contact";
 import "./App.css";
 import Svg from "./Components/Svg";
+import Svg2 from "./Components/Svg2";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Main />
       <Svg />
       <About />
+      <Svg2 />
       <Project />
       <Contact />
     </div>

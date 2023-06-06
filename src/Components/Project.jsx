@@ -2,7 +2,7 @@ import Netflix from "../images/NETFLIX-NEW-REV.png";
 
 function Project() {
   return (
-    <div className="text-white pt-[200px] bg-slate-700 pb-36 ">
+    <div className=" pt-[200px]  pb-36 ">
       <h1 className="text-2xl font-bold text-center p-10 sm:text-4xl">
         PROJECT
       </h1>
@@ -22,7 +22,7 @@ function Project() {
               className="cursor-pointer hover:scale-110 duration-100"
             />
           </a>
-          <p className="text-left mt-10 font-extralight">
+          <p className="text-left mt-10 font-light">
             Netflix clone project using react js technology, redux, firebase,
             Click image for view project , if there is a warning click details
             -VISIT THIS UNSAFE SITE-

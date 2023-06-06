@@ -3,7 +3,7 @@ import { TypeAnimation } from "react-type-animation";
 
 function Main() {
   return (
-    <div className="pt-64 px-10 pb-[600px] font-Jost">
+    <div className="pt-64 px-10 pb-[50px] font-Jost">
       <motion.h1
         initial={{ opacity: 0, y: -80 }}
         animate={{ opacity: 1, y: 0 }}
