@@ -16,22 +16,22 @@ function Navbar() {
         onClick={() => setLogoNav((prevLogoNav) => !prevLogoNav)}
       >
         {logoNav === true ? (
-          <HiMoon
-            size={35}
-            color="black"
-            style={{
-              transition: (bodys.style.transition = "1s"),
-              color: (bodys.style.color = "white"),
-              backgroundColor: (bodys.style.backgroundColor = "black"),
-            }}
-          />
-        ) : (
           <RiSunFoggyFill
             size={35}
             color="black"
             style={{
+              transition: (bodys.style.transition = "1s"),
               color: (bodys.style.color = "black"),
               backgroundColor: (bodys.style.backgroundColor = "white"),
+            }}
+          />
+        ) : (
+          <HiMoon
+            size={35}
+            color="black"
+            style={{
+              color: (bodys.style.color = "white"),
+              backgroundColor: (bodys.style.backgroundColor = "black"),
               transition: (bodys.style.transition = "1s"),
             }}
           />
