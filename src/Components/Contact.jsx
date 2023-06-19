@@ -12,7 +12,7 @@ function Contact() {
       <div className="flex justify-evenly rounded-md gap-5 sm:w-[400px] p-10 m-auto md:w-[500px] ">
         <div>
           <a
-            href="https://wa.me/6285156802452"
+            href="https://wa.me/6285778201904"
             target="_blank"
             rel="noreferrer"
           >
