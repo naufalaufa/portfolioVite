@@ -1,4 +1,4 @@
-import logo from "../images/Desain_tanpa_judul-removebg-preview.png";
+import logo from "../images/hdku.png";
 import { GrResume } from "react-icons/gr";
 import pdefnew from "../images/pdefnew.pdf";
 import { motion } from "framer-motion";
@@ -10,9 +10,9 @@ function About() {
         <h1 className=" duration-500 font-Jost text-2xl text-center pt-10 sm:text-4xl">
           ABOUT ME
         </h1>
-        <div className="text-left sm:text-left">
+        <div className="text-left sm:text-left ">
           <motion.img
-            className="w-auto sm:w-80 md:w-96 lg:w-auto"
+            className="w-[340px]  sm:w-80  md:w-96 lg:w-[800px]"
             animate={{ x: 10, opacity: 1 }}
             transition={{ duration: 2, type: "just" }}
             whileInView={{ opacity: 1 }}
@@ -20,7 +20,7 @@ function About() {
             src={logo}
             alt="error"
           />
-          <div className="p-10 sm:absolute top-[250px] left-[300px] md:ml-20 lg:ml-96">
+          <div className="p-10 sm:absolute top-[150px] left-[320px] md:ml-20 lg:ml-96">
             <h1 className="text-2xl font-Jost sm:text-xl  md:text-2xl lg:text-4xl ">
               Mochamad Naufal Aufa Rifqi
             </h1>
