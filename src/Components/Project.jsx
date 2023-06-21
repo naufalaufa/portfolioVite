@@ -1,4 +1,5 @@
 import Netflix from "../images/NETFLIX-NEW-REV.png";
+import CrudsPng from "../images/crudsspngs.png";
 
 function Project() {
   return (
@@ -29,19 +30,22 @@ function Project() {
           </p>
         </div>
         <div className="p-8 ">
-          <h1 className="text-left my-5 text-xl sm:text-2xl">Coming soon</h1>
+          <h1 className="text-left my-5 text-xl sm:text-2xl">CRUD SHOPPING</h1>
           <a
-            href="https://netflix-clone-naufal.web.app/"
+            href="https://cruds-redux.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              src={Netflix}
+              style={{ width: "3000px" }}
+              src={CrudsPng}
               alt="error"
-              className="cursor-pointer hover:scale-110 duration-100 "
+              className="cursor-pointer hover:scale-110 duration-100  "
             />
           </a>
-          <p className="text-left mt-10 font-extralight">COMING SOON PROJECT</p>
+          <p className="text-left mt-10 font-extralight">
+            CRUD USING REACT-BOOTSTAP , REDUX TOOLKIT , AND AXIOS
+          </p>
         </div>
       </div>
     </div>
