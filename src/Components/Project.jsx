@@ -1,5 +1,5 @@
 import Netflix from "../images/NETFLIX-NEW-REV.png";
-import CrudsPng from "../images/crudsspngs.png";
+import CrudsPng from "../images/newcrud.png";
 
 function Project() {
   return (
@@ -37,7 +37,7 @@ function Project() {
             rel="noreferrer"
           >
             <img
-              style={{ width: "3000px" }}
+              style={{ width: "3100px" }}
               src={CrudsPng}
               alt="error"
               className="cursor-pointer hover:scale-110 duration-100  "
