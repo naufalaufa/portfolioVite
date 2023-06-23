@@ -1,6 +1,6 @@
 import logo from "../images/hdku.png";
 import { GrResume } from "react-icons/gr";
-import pdefnew from "../images/pdefnew.pdf";
+import pdefnew from "../images/pdfgantino.pdf";
 import { motion } from "framer-motion";
 
 function About() {
@@ -20,7 +20,7 @@ function About() {
             src={logo}
             alt="error"
           />
-          <div className="p-10 sm:absolute top-[150px] left-[320px] md:ml-20 lg:ml-96">
+          <div className="p-10  sm:absolute top-[150px] left-[320px] md:ml-20 lg:ml-96">
             <h1 className="text-2xl font-Jost sm:text-xl  md:text-2xl lg:text-4xl ">
               Mochamad Naufal Aufa Rifqi
             </h1>
