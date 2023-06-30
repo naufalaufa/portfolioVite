@@ -21,7 +21,7 @@ function Contact() {
         </div>
         <div>
           <a
-            href="https://www.instagram.com/naufallrifqiii/"
+            href="https://www.instagram.com/pertaminaxs/?hl=id"
             target="_blank"
             rel="noreferrer"
           >
