@@ -38,7 +38,7 @@ function Main() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 2 }}
-        className="cursor-pointer bg-orange-300 p-6 inline-block mt-5 rounded-full hover:text-white hover:bg-slate-500"
+        className="cursor-pointer bg-orange-300 p-6 inline-block mt-5 rounded-full hover:text-white hover:bg-slate-500 animate-bounce duration-100"
       >
         Show More
       </motion.a>
